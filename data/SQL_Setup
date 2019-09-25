@@ -1,0 +1,43 @@
+CREATE TABLE reviews (
+    listing_id int NOT NULL
+    , "date" date
+    , month_test varchar
+); 
+
+CREATE TABLE listings (
+    id int NOT NULL
+    , name varchar
+    , host_id int
+    , host_name varchar
+    , neighbourhood varchar
+    , latitude decimal
+    , longitude decimal
+    , room_type varchar
+    , price int
+    , minimum_nights int
+    , number_of_reviews int
+    , reviews_per_month decimal
+    , calculated_host_listings_count int
+    , availability_365 int
+    , price_range varchar
+    , month_test varchar
+); 
+
+
+
+CREATE TABLE listings (
+    id int NOT NULL
+    , name varchar
+    , host_id int
+    , host_name varchar
+    , neighbourhood varchar
+    , latitude decimal
+    , longitude decimal
+    , room_type varchar
+    , price int
+    , minimum_nights int
+    , number_of_reviews int
+    , reviews_per_month decimal
+    , availability_365 int
+    , month_test varchar
+); 
